@@ -1,0 +1,54 @@
+
+/*---All Media Query--------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 277px)
+{
+    #Subject{width: 130px !important;}
+    h2{margin-top: 12px; text-align: left; font-size: 20px !important;}
+}
+
+@media only screen and (max-width: 207px)
+{
+    #Subject{width: 100px !important;}
+    h2{margin-top: 12px; text-align: left; font-size: 17px !important;}
+}
+
+@media only screen and (max-width: 177px)
+{
+    #Subject{width: 90px !important;}
+    #Subject p{margin-bottom: 0px; font-size: 15px !important;}
+    h2{margin-top: 12px; text-align: left; font-size: 17px !important;}
+    #Subject img{display: none;}
+}
+
+
+
+/*---Header Navbar----------------------------------------------------------------------------------------------------*/
+
+.nvbtn{background-color: white; border: 1px solid white;}
+
+#nvbr{background-color: #5bc0de; border: 0px solid #5bc0de; padding: 7px 0px 7px 0px;}
+
+#nblink li a{color:white; font-size:20px; border: 2px solid transparent; border-radius: 100px; margin: 2px; padding: 12px; 
+             font-style: italic;}
+
+#nblink li a:hover {background-color:white; color: #5bc0de; border:2px solid transparent; border-radius:100px;}
+
+#logo{font-size: 40px; color: white; font-family: 'Times New Roman', Times, serif; display: flex;}
+
+#logo img{height :50px; width: 50px; margin-top: -15px;}
+
+/*---Tutorials------------------------------------------------------------------------------------------------------------*/
+
+.Topic_Area{border: 1px solid #5bc0de; margin: 10px 3px 30px 3px; box-shadow: 0 0 10px 0px #5bc0de; padding-bottom: 10px; 
+            border-radius: 15px;}
+h2{margin-top: 150px !important; text-align: center; color: #5bc0de;}
+#TRhr{width: 100%; height: 1px; background-color: #5bc0de; margin-top: 15px;}
+
+
+
+#Subject{background-color: white; border: 1px solid #5bc0de; color: #5bc0de; border-radius: 15px; height: auto;
+         width: 170px; margin: 20px 5px 10px 5px; text-decoration: none;}
+#Subject img{margin-top: 5px;}
+#Subject p{margin-bottom: 0px; font-size: 18px;}
+#Subject:hover{box-shadow: 0 0 10px 0px #5bc0de;}
